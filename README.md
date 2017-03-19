@@ -13,10 +13,18 @@ Ce code a été testé sur la machine virtuelle de Cloudera qui est une machine 
 qu'un IDE Eclipse. 
 
 Dans un premier lieu, nous allons tester le mapper et le reducer en local, ensuite nous allons exécuter le code directement sur HDFS.
-## Activité 3 
+## Activité 4 
 Dans cet exemple, le Mapper extrait les couples (store,cost) alors que le Reducer s'occupe de faire la somme de tous les coûts pour un même magasin
-## Activité 4
-
+La dernière ligne de l'output correspond à la valeur de Buffalo .
+## Activité 5
+Dans cet exemple, le Mapper extrait les couples (item,cost) alors que le Reducer s'occupe de faire la somme de tous les coûts pour un même magasin. 
+Les 2 dernières lignes de l'output correspondent aux valeurs de Consumer Electronics et Toys.
+## Activité 6
+Dans cet exemple, le Mapper extrait les couples (store,cost) alors que le Reducer s'occupe de calculer le montant de vente le plus élevé pour chaque magasin. 
+Les 3 dernières lignes correspondent aux valeurs de RENO, CHANDLER et TOLDEO .
+## Activité 7
+Chaque mapper va calculer le nombre total des ventes et la valeur totale des ventes de ses données et passera aux reducers comme résultats intermédiaires (TOTAL, montant_ventes,nb_ventes)
+Le reducer s'occupera ensuite de faire la somme de ses inputs pour récupérer à la fin le montant total des ventes et la valeur totales des ventes de tous les magasins. 
 
 
 # Tester le code en local
