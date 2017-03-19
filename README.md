@@ -8,11 +8,15 @@ date temps magasin produit coût paiement
 Les codes du mapper et du reducer sont écrits en JAVA. 
 
 
-## A propos 
+# A propos 
 Ce code a été testé sur la machine virtuelle de Cloudera qui est une machine Linux, distribution CentOS, sur laquelle est installé Hadoop ainsi
 qu'un IDE Eclipse. 
 
 Dans un premier lieu, nous allons tester le mapper et le reducer en local, ensuite nous allons exécuter le code directement sur HDFS.
+## Activité 3 
+Dans cet exemple, le Mapper extrait les couples (store,cost) alors que le Reducer s'occupe de faire la somme de tous les coûts pour un même magasin
+## Activité 4
+
 
 
 # Tester le code en local
